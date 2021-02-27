@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LoginActivity">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:src="@drawable/octo"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="84dp"
+            android:layout_marginStart="144dp"
+            android:layout_marginLeft="144dp" />
+        <TextView
+            android:id="@+id/TituloDiario"
+            android:layout_width="224dp"
+            android:layout_height="39dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:text="IVirusProjetHub"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="224dp"
+            android:layout_marginStart="104dp"
+            android:layout_marginLeft="144dp"
+            />
+        <TextView
+            android:id="@+id/ivsubTituloDiario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="LOGIN"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="268dp"
+            android:layout_marginStart="192dp"
+            android:layout_marginLeft="144dp"
+            />
+        <Button
+            android:id="@+id/Email"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="E-MAIL"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="324dp"
+            app:layout_constraintHorizontal_bias="0.496"
+            tools:ignore="MissingConstraints"/>
+
+        <Button
+            android:id="@+id/Senha"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="SENHA"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="393dp"
+            app:layout_constraintHorizontal_bias="0.496"
+            tools:ignore="MissingConstraints"/>
+
+        <Button
+            android:id="@+id/Entrar"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="GIT ADD ."
+            android:textStyle="bold"
+            android:background="@color/primary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="548dp"
+            app:layout_constraintHorizontal_bias="0.496"
+            tools:ignore="MissingConstraints"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

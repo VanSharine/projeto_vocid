@@ -1,0 +1,26 @@
+<resources>
+    <string name="title_activity_resumo">ResumoActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="app_name">Ivirus Protect Hub</string>
+    <string name="app_titulo">Cadastro Usuário</string>
+    <string name="cadastro_nome">Nome</string>
+    <string name="cadastro_email">e-mail</string>
+    <string name="cadastro_bairro">Bairro</string>
+    <string name="cadastro_senha">Senha</string>
+    <string name="cadastro_idade">Idade</string>
+    <string name="commit">Commit</string>
+    <string name="sintomas">SINTOMA</string>
+    <string name="diario_sintomas">Resumo do Diário de Sintomas</string>
+    <string name="data_inicio">Data de Início</string>
+    <string name="data_termino">Data de Término</string>
+    <string name="intensidade">Intensidade</string>
+
+
+</resources>
